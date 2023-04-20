@@ -1,0 +1,51 @@
+
+body {
+    background-image: url(https://i.pinimg.com/originals/20/e6/03/20e60377fb5710a7335be9bec1884877.gif);
+
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+  }
+
+
+#box {
+    color: rgb(240, 245, 250);
+    padding: 2em;
+    border-radius: 30px;
+    font-family: 'Rubik Bubbles';
+    background: linear-gradient(to top, rgba(88, 11, 81, 0.8), rgba(166, 64, 161, 0.8));
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    animation: fadeIn 1s ease-in-out;
+    
+}
+
+
+
+.search_bar:focus {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
